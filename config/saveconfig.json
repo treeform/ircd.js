@@ -1,0 +1,19 @@
+{ "network":  "ircn",
+  "hostname": "localhost",
+  "serverDescription": "A Node IRC daemon",
+  "serverName": "server1",
+  "port": 6667,
+  "linkPort": 7777,
+  "whoWasLimit": 10000,
+  "token": 1,
+  "opers": {
+    "treeform": { "password": "$2a$10$uEELp7UacZv3VSgH4CLdRu76H6Z75Ny2/ED.uJoJxldJ4SvkaWEHO" }
+  },
+  "links": {
+    "server2": { "host": "127.0.0.1",
+                 "password": "$2a$10$uEELp7UacZv3VSgH4CLdRu76H6Z75Ny2/ED.uJoJxldJ4SvkaWEHO",
+                 "port": 7778,
+                 "token": 2 }
+  }
+}
+
